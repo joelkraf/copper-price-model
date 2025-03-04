@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Model outputs and checkpoints
+model_output/
+saved_models/
+*.h5
+*.pkl
+*.joblib
+*.model
+*.json
+*.checkpoint
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Docker
+.dockerignore
+
+# Visualization and temporary files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.tar.gz
+tmp/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
